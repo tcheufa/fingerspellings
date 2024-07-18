@@ -1,0 +1,1 @@
+import{L as s}from"../chunks/layout.B6F_-JH3.js";const e=!0,o=async()=>({signs:["A","B","C","D","E","F","G","H","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]}),r=Object.freeze(Object.defineProperty({__proto__:null,load:o,prerender:e},Symbol.toStringTag,{value:"Module"}));export{s as component,r as universal};
