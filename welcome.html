@@ -5,28 +5,49 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DPKCwM2R.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.D0vt6izB.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.VvEOAcGf.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.B6zb9pvG.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.De5gSt3z.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.DdEy3NLK.js">
+		<link href="./_app/immutable/assets/0.BBYTZ0za.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ProgressBar.Cirlo5Z8.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/12.K3PBKCIW.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ProfileSettings.CaOYqKAe.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Oa64oTkw.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Ch3Fhjm_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DKJAPN-h.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.BvrIB5o-.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D2ZDUr1Q.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CxtROXWl.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.DUrTM973.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ProgressBar.svelte_svelte_type_style_lang.wvZEFDJe.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/12.zaGEx3af.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Tab.fX27kYsG.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/spread.CN4WR7uZ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ProfileSettings.B6RcFj2s.js">
 	</head>
 	<body data-sveltekit-preload-data="hover" data-theme="modern">
-		<div style="display: contents">
+		<div style="display: contents">  <div class="tab-group space-y-4 " data-testid="tab-group"> <div class="tab-list flex overflow-x-auto hide-scrollbar justify-start border-b border-surface-400-500-token " role="tablist" aria-labelledby=""><label class="text-center cursor-pointer transition-colors duration-100 flex-none px-4 py-2 rounded-tl-container-token rounded-tr-container-token border-b-2 border-surface-900-50-token " title=""> <div class="tab " data-testid="tab" role="tab" aria-controls="" aria-selected="true" tabindex="0"> <div class="h-0 w-0 overflow-hidden"><input type="radio" name="tab1" value="0" tabindex="-1" checked></div>  <div class="tab-interface  space-y-1"> <div class="tab-label">Welcome
+		</div></div></div></label> <label class="text-center cursor-pointer transition-colors duration-100 flex-none px-4 py-2 rounded-tl-container-token rounded-tr-container-token hover:variant-soft " title=""> <div class="tab " data-testid="tab" role="tab" aria-controls="" aria-selected="false" tabindex="-1"> <div class="h-0 w-0 overflow-hidden"><input type="radio" name="tab2" value="1" tabindex="-1"></div>  <div class="tab-interface  space-y-1"> <div class="tab-label">Profile Setup
+		</div></div></div></label> <label class="text-center cursor-pointer transition-colors duration-100 flex-none px-4 py-2 rounded-tl-container-token rounded-tr-container-token hover:variant-soft " title=""> <div class="tab " data-testid="tab" role="tab" aria-controls="" aria-selected="false" tabindex="-1"> <div class="h-0 w-0 overflow-hidden"><input type="radio" name="tab1" value="2" tabindex="-1"></div>  <div class="tab-interface  space-y-1"> <div class="tab-label">Finish
+		</div></div></div></label></div>  <div class="tab-panel  " role="tabpanel" aria-labelledby="" tabindex="0"><div slot="panel" class="h-full pt-7 mx-auto"><h2 class="mt-24 svelte-1o2940j" data-svelte-h="svelte-14rt5fs">Welcome to the new App</h2> <div class="w-full mt-48 mb-7 flex justify-end pr-4"><button class="btn bg-primary-600" data-svelte-h="svelte-1bmup1e">Continue</button></div></div></div></div> 
+			
 			<script>
 				{
-					__sveltekit_1vduw66 = {
+					__sveltekit_1e4utxy = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("./_app/immutable/entry/start.DPKCwM2R.js"),
-						import("./_app/immutable/entry/app.De5gSt3z.js")
+						import("./_app/immutable/entry/start.Oa64oTkw.js"),
+						import("./_app/immutable/entry/app.D2ZDUr1Q.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 12],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>
